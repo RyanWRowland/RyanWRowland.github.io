@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-.navbar {
+#navbar {
   position: fixed;
   top: 0;
   right: 0;
@@ -17,17 +17,17 @@
   justify-content: space-between;
   align-items: center;
 }
-.navbar header {
+#navbar header {
   margin: 0 30px;
   display: flex;
   align-items: center;
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
 }
-.navbar header i {
+#navbar header i {
   margin-right: 15px;
 }
-.navbar #menu {
+#navbar #menu {
   display: flex;
   justify-content: space-around;
   line-height: 60px;
@@ -37,7 +37,7 @@
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
 }
-.navbar #menu a {
+#navbar #menu a {
   display: inline-block;
   height: 100%;
   padding: 0 20px;
@@ -45,15 +45,15 @@
   color: black;
   text-decoration: none;
 }
-.navbar #menu a:hover {
+#navbar #menu a:hover {
   background-color: #5c62d9;
 }
 @media (max-width: 600px) {
-  .navbar {
+  #navbar {
     flex-direction: column;
     height: auto;
   }
-  .navbar header {
+  #navbar header {
     padding-top: 10px;
     padding-bottom: 10px;
   }
