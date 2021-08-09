@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-#navbar {
+.navbar {
   position: fixed;
   top: 0;
   right: 0;
@@ -17,17 +17,17 @@
   justify-content: space-between;
   align-items: center;
 }
-#navbar header {
+.navbar header {
   margin: 0 30px;
   display: flex;
   align-items: center;
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
 }
-#navbar header i {
+.navbar header i {
   margin-right: 15px;
 }
-#navbar #menu {
+.navbar #menu {
   display: flex;
   justify-content: space-around;
   line-height: 60px;
@@ -37,7 +37,7 @@
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
 }
-#navbar #menu a {
+.navbar #menu a {
   display: inline-block;
   height: 100%;
   padding: 0 20px;
@@ -45,15 +45,15 @@
   color: black;
   text-decoration: none;
 }
-#navbar #menu a:hover {
+.navbar #menu a:hover {
   background-color: #5c62d9;
 }
 @media (max-width: 600px) {
-  #navbar {
+  .navbar {
     flex-direction: column;
     height: auto;
   }
-  #navbar header {
+  .navbar header {
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -166,6 +166,15 @@
   background-color: #858AE3;
   padding: 20px;
 }
+#contact p {
+  font-size: 1em;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  padding-bottom: 10px;
+}
+#contact a {
+  color: black;
+}
 #contact #icons {
   width: 50%;
   margin: auto;
@@ -183,4 +192,38 @@
   #contact #icons {
     width: 100%;
   }
+}
+
+.home {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+}
+
+.project-title {
+  text-align: center;
+  padding: 20px;
+  font-size: 2.5em;
+  font-family: "Roboto", sans-serif;
+}
+
+.project-image {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-description {
+  padding: 0px 0px 20px 0px;
+  font-size: 1.5em;
+  font-family: "Open Sans", sans-serif;
+}
+
+.light-blue {
+  background-color: aqua;
+}
+
+.project-nav {
+  position: absolute;
 }

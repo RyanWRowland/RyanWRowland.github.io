@@ -20,7 +20,7 @@ $secondary-color: #97DFFC;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+
   header {
     margin: 0 30px;
     display: flex;
@@ -31,7 +31,7 @@ $secondary-color: #97DFFC;
       margin-right: 15px;
     }
   }
-  
+
   #menu {
     display: flex;
     justify-content: space-around;
@@ -56,12 +56,12 @@ $secondary-color: #97DFFC;
   @media (max-width: 600px) {
     flex-direction: column;
     height: auto;
-    
+
     header {
       padding-top: 10px;
       padding-bottom: 10px;
     }
-  } 
+  }
 }
 
 .active {
@@ -78,7 +78,7 @@ $secondary-color: #97DFFC;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   div {
     margin-top: 60px;
     text-align: center;
@@ -99,7 +99,7 @@ $secondary-color: #97DFFC;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+
   header{
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -107,7 +107,7 @@ $secondary-color: #97DFFC;
     margin-top: 60px;
     padding-bottom: 30px;
   }
-  
+
   #projects {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -116,7 +116,7 @@ $secondary-color: #97DFFC;
       grid-template-columns: 1fr;
     }
   }
-  
+
   .project-tile{
     a {
       color: black;
@@ -153,26 +153,26 @@ $secondary-color: #97DFFC;
         transform: translate(0, -135px);
         opacity: 1;
       }
-      
+
       img {
         opacity: .3;
         transform: scale(1.1);
       }
     }
-    
+
     @media (max-width: 600px) {
       .project-title {
         transform: translate(0, -135px);
         opacity: 1;
       }
-      
+
       img {
         opacity: .3;
         transform: scale(1.1);
       }
     }
   }
-} 
+}
 
 #contact {
   background-color: $primary-color;
